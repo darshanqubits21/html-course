@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact us</title>
+  </head>
+  <body>
+    <a href="./home.html">Home</a>
+    <a href="./aboutme.html">About us</a>
+    <a href="./mytodo.html">My Todo</a>
+    <a href="./conatctus.html">Contact Us</a>
+    <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113060.48476287493!2d83.43253605!3d27.68206295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3996864275d9755f%3A0x2b1e92d89d4bb3ae!2sButwal!5e0!3m2!1sen!2snp!4v1671350718248!5m2!1sen!2snp"
+        width="600"
+        height="450"
+        style="border: 0"
+        referrerpolicy="no-referrer-when-downgrade"
+        name="iframe_a"
+      ></iframe>
+      <a
+        href="https://www.geeksforgeeks.org/difference-between-block-elements-and-inline-elements/"
+        target="iframe_a"
+        >Click me to go in w3school page</a
+      >
+    </div>
+
+    <fieldset>
+      <legend>Please fill the form below</legend>
+      <form action="./formSubmitted.html" method="post" target="_blank">
+        <label>Name</label>
+        <input type="text" name="name" id="name" /> <br />
+        <label>Email</label>
+        <input type="email" name="email" id="email" /> <br />
+        <label>Phone</label>
+        <input type="number" name="phone" id="phone" /> <br />
+        <label>Date of Birth</label>
+        <input type="date" name="DOB" id="DOB" /> <br />
+        <label>Gender</label>
+        <input type="radio" name="gender" value="Male" id="male" />
+        <label>Male</label><br />
+        <input type="radio" name="gender" value="Female" id="female" />
+        <label>Female</label><br />
+        <input type="radio" name="gender" value="Other" id="other" />
+        <label>Other</label><br />
+        <label>Upload a photo</label>
+        <input type="file" name="file" value="file" id="file" /><br />
+
+        <label>Select your education</label>
+        <select name="education" id="education" size="4" multiple>
+          <option value="slc">SLC</option>
+          <option value="+2">+2</option>
+          <option value="bachelor">Bachelor</option>
+          <option value="master">Master</option></select
+        ><br />
+        <label>Message</label>
+        <textarea name="message" rows="4" cols="4"></textarea><br />
+        <input type="checkbox" />
+        <label>Do you agree with my terms and policy</label><br />
+        <button type="submit">Button</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
